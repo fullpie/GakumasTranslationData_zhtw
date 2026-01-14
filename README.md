@@ -6,15 +6,13 @@
 - 取得上游最新 Release（依版本號 tag）
 - 下載 `GakumasTranslationData.zip`
 - 轉換 `.txt` / `.json` 內容為繁體（預設 `s2twp.json`）
-- 產出固定檔名：`GakumasTranslationData_zhTW.zip`
 - 發佈 Release（標題格式：`Update: vX.Y.Z`）
 
 ## 自動更新規則
 - 以「上游 Release 版本號（tag）」判斷是否更新  
-- 如果同版本的 Release 已經存在，工作流程會直接跳過（不下載、不轉檔、不發佈）
 
 ## 排程
-每 8 小時檢查一次（台灣時間）：
+每 8 小時檢查一次（UTC+8）：
 - 00:30 / 08:30 / 16:30
 
 ## 手動執行
