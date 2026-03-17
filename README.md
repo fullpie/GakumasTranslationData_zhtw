@@ -2,6 +2,7 @@
 
 本專案會自動從上游 GitHub Release 下載 `GakumasTranslationData.zip`，使用 **OpenCC** 轉換為 **繁體中文（zhTW）**，再把結果打包成 `GakumasTranslationData_zhTW.zip` 並發佈到本 repo 的 **Release**。
 
+目前改用新的方式翻譯避免漢字被轉換成繁體 https://github.com/fullpie/GakumasTranslationData
 ## 功能
 - 取得上游最新 Release（依版本號 tag）
 - 下載 `GakumasTranslationData.zip`
